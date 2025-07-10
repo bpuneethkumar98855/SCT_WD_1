@@ -1,0 +1,462 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+}    
+.navbuttons{
+  margin-top: 25px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.navbuttons a {
+  text-decoration: none;  
+  color: white;               
+  font-size: 20px;
+  border: none;
+  background: none;
+}
+.navbuttons a:hover{
+  background-color: rgb(38, 107, 235);
+  transition-duration:0.2s ;
+  transition-timing-function:linear;
+  border-radius: 10px;
+}
+.home{
+    height: 100vh;
+    background-image: url("https://w0.peakpx.com/wallpaper/905/944/HD-wallpaper-cake-red-fruit-food-cup-black-dessert-sweet-coffee.jpg");
+    box-sizing: border-box;
+    background-size:cover ;
+}
+.h1{
+    margin: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.homep{
+    color: whitesmoke;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.eat{
+    height:50px;
+    width: 150px;
+    background-color: transparent;
+    color:white;
+    border: 1.5px solid white;
+}
+.eat:hover{
+    background-color:rgb(240, 167, 32);
+    color: black;
+    border: 4px solid black;
+}
+.book{
+    background-color: transparent;
+    color:white;
+    border: 1.5px solid white;
+    height:50px;
+    width: 150px;
+}
+.book:hover{
+    background-color:rgb(240, 167, 32);
+    color: black;
+     border: 4px solid black;
+}
+.homebut{
+    display: flex;
+    margin-top: 130px;
+    gap: 30px;
+    margin-left: 80px;
+}
+.menuitems img{
+    height: 300px;
+    width: 270px;
+    
+}
+.menu h2{
+    margin-left: 70px;
+    font-size: 35px;
+}
+.menu{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.items{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.menuitems{
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px  rgba(0,0,0,0.1);
+    transition-duration: 0.5s ;
+    transition-timing-function: ease;
+}
+.menuitems:hover{
+    transform: translatey(-10px);
+}
+.menup{
+    font-size: 20px;
+    margin-left: 8px;
+}
+.price{
+    margin-left: 8px;
+    color: rgb(248, 162, 4);
+    font-size:20px ;
+}
+.bookings{
+    height: 100vh;
+    background-image:url("https://thumbs.dreamstime.com/b/cafe-interior-people-sitting-showcasing-coffee-culture-social-scenes-stock-photo-generative-ai-enjoying-cozy-370152876.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+}
+.bookingsip{
+    margin-top: 130px;
+    height: 350px;
+    width: 380px;
+    background-color: rgb(41, 11, 11);  
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 10px;
+}
+.bookingsip h2{
+    margin-left:10px;
+}
+.book1{
+   display: flex;
+   gap: 20px;
+   margin-left: 13px;
+}
+
+.b1 input{
+   height: 35px; 
+   width: 170px; 
+   background-color: rgba(255, 255, 255, 0.1);
+   border: none;
+}
+.lastname input{
+   height: 35px; 
+   width: 170px; 
+   background-color: rgba(255, 255, 255, 0.1);
+   border: none;
+}
+.book2{
+   display: flex;
+   gap: 20px;
+   margin-left: 13px;
+   margin-top: 20px;
+}
+
+
+.date input{
+    height: 35px; 
+    width: 170px; 
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+.tableno input{
+    height: 35px; 
+    width: 170px; 
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin-right: 300px;
+}
+.bookatablebutton{
+    margin-top: 40px;
+    margin-left: 15px;
+    height: 35px;
+    width: 360px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+.bookatablebutton:hover{
+    background-color: rgb(211, 159, 62);
+
+}
+.aboutus{
+    height: 100vh;
+}
+.aboutus h1{
+    margin-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.aboutuscontent{
+    display: flex;
+    gap: 10px;
+}
+.aboutuscontent p{
+    line-height: 2.4;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.aboutuscontent img{
+    height: 350px;
+    width: 450px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.foot{
+    width: 100%;
+    height: 100px;
+    background-color: #481911;  
+ }
+.foot h1{
+     display: flex;
+     justify-content: center;
+     color: whitesmoke;
+ }
+.logos{
+     font-size: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+@media screen and (max-width:768px){
+  .header{
+    display: flex;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  .navbuttons{
+    margin-right: 140px;
+  }
+  .navbuttons a:hover{
+    background-color: rgb(38, 107, 235);
+    transition-duration:0.2s ;
+    transition-timing-function:linear;
+    border-radius: 10px;
+  }
+  .home{
+    margin-top: 80px;
+    background-size:110% ;
+    height: 90vh;
+    width: 1000px;
+  }
+  .h1 {
+    margin-right: 100px;
+    margin-top: 94px;
+    text-align: center;
+  }
+  .homep {
+    margin-right: 100px;
+    text-align: center;
+  }
+  .homebut{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-right:100px ;
+  }
+  .eat:hover{
+    background-color:rgb(240, 167, 32);
+    color: black;
+    border: 4px solid black;
+  }
+  .book:hover{
+    background-color:rgb(240, 167, 32);
+    color: black;
+    border: 4px solid black;
+  }
+  .menu h2{
+    margin-left: 200px;
+    text-align: center;
+  }
+  .menu{
+    height: 230vh;
+  }
+  .items{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 200px;
+  }
+  .menuitems{
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px  rgba(0,0,0,0.1);
+    transition-duration: 0.5s ;
+    transition-timing-function: ease;
+  }
+  .menuitems:hover{
+    transform: translatey(-8px);
+  }
+  .bookings{
+    height: 150vh;
+    width:1000px ;
+  }
+  .bookingsip{
+    margin-top: 250px;
+    margin-left: 20px;
+  }
+  .aboutus{
+    height: 155vh;
+  }
+  .aboutus h1{
+    margin-left: 180px; 
+    text-align: center;
+  }
+  .aboutuscontent{
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutuscontent img{
+    margin-left: 180px;
+  }
+  .aboutuscontent p{
+    margin-left: 170px;
+    width: 160vh;
+  }
+  .foot{
+    width: 197vh;
+  }
+  .foot h1{
+    align-items: center;
+    margin-right:90px;
+  }
+  .logos{
+    margin-right: 90px;
+  }
+} 
+@media screen and (max-width: 480px){
+    .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .navbuttons{
+    margin-right: 200px;
+  }
+  .navbuttons a:hover{
+    background-color: rgb(38, 107, 235);
+    transition-duration:0.2s ;
+    transition-timing-function:linear;
+    border-radius: 10px;
+  }
+   .home{
+    margin-top: 108px;
+    background-size:110% ;
+    height: 90vh;
+    width: 1000px;
+  }
+  .h1 {
+    margin-right: 100px;
+    margin-top: 98px;
+    text-align: center;
+  }
+  .homep {
+    margin-right: 100px;
+    text-align: center;
+  }
+  .homebut{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-right:100px ;
+  }
+  .eat:hover{
+    background-color:rgb(240, 167, 32);
+    color: black;
+    border: 4px solid black;
+  }
+  .book:hover{
+    background-color:rgb(240, 167, 32);
+    color: black;
+    border: 4px solid black;
+  }
+  .menu h2{
+    margin-right: 40px;
+  }
+  .menu{
+    height: 380vh;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 410px;
+  }
+  .items{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 50px;
+  }
+  .menuitems{
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px  rgba(0,0,0,0.1);
+    transition-duration: 0.5s ;
+    transition-timing-function: ease;
+  }
+  .menuitems:hover{
+    transform: translatey(-8px);
+  }
+  .bookings{
+    height: 150vh;
+    width: 1000px;
+  }
+  .bookingsip{
+    margin-top: 180px;
+    margin-right: 15px;
+  }
+  .aboutus{
+    height: 168vh;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutus h1{
+    margin-left: 450px; 
+    text-align: center;
+  }
+  .aboutuscontent p{
+    margin-left: 680px;
+    width: 180vh;
+  }
+  .aboutuscontent img{
+    margin-left: 660px;
+  }
+  .foot{
+    width: 198vh;
+  }
+  .foot h1{
+    align-items: center;
+    margin-right:40px;
+  }
+  .logos{
+    margin-right: 40px;
+  }
+
+}
