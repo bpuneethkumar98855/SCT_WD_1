@@ -346,7 +346,7 @@ body{
     margin-right: 90px;
   }
 } 
-@media screen and (max-width: 480px){
+/* @media screen and (max-width: 480px){
     .header{
     position: fixed;
     top: 0;
@@ -459,4 +459,4 @@ body{
     margin-right: 40px;
   }
 
-}
+} */
