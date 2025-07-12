@@ -40,7 +40,7 @@ body{
 }
 .home{
     height: 100vh;
-    background-image: url("https://w0.peakpx.com/wallpaper/905/944/HD-wallpaper-cake-red-fruit-food-cup-black-dessert-sweet-coffee.jpg");
+    background-image: url("Main\ page\ image.jpg");
     box-sizing: border-box;
     background-size:cover ;
 }
@@ -332,7 +332,8 @@ body{
   }
   .aboutuscontent p {
     width: 90%;
-    text-align: center;
+    text-align: left;
+    
   }
    .foot {
     width: 100%;
